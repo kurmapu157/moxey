@@ -1,0 +1,99 @@
+.cus-bg-primary {
+  background-color: #22b470 !important;
+}
+
+.cus-bg-secondary {
+  background-color: #090d28 !important;
+}
+
+.cus-bg-grey {
+  background-color: #f5f5f5 !important;
+}
+
+.primary-text {
+  color: #22b470 !important;
+}
+
+.secondary-text {
+  color: #090d28 !important;
+}
+
+.grey-text {
+  color: #f5f5f5 !important;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.status {
+  background-color: rgba(120, 201, 120, 0.3);
+  border: 1rem;
+  color: black;
+  font-size: 18px;
+  font-weight: 200;
+  border-radius: 3px;
+  padding: 2px 10px 2px 10px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+}
+.dropdown-toggle-split::after,
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.modal-right .modal-dialog {
+  position: fixed;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  max-width: 500px; /* Adjust the width as needed */
+  height: 100%;
+  transform: translate3d(100%, 0, 0);
+  transition: transform 0.3s ease-out;
+}
+
+.modal-right.show .modal-dialog {
+  transform: translate3d(0, 0, 0);
+}
+
+.modal-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body {
+  flex: 1;
+  overflow-y: auto;
+}
+.bottom-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.heading {
+  font-weight: 100;
+  font-size: small;
+}
+.role {
+  color: green;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  left: auto;
+}
+
+.no-default-icon::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.bottom-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
